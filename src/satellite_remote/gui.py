@@ -18,7 +18,7 @@ import tkinter as tk
 from tkinter import messagebox
 from typing import Optional
 
-from SatelliteRemoteConnectPreview import generate_key, write_config, bring_up
+from .cli import generate_key, write_config, bring_up
 
 # Store state so we can tear down the tunnel on demand
 tunnel_cfg: Optional[str] = None
